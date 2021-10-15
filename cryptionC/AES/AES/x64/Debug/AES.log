@@ -1,0 +1,4 @@
+﻿  source.c
+C:\Users\admin\Desktop\AES_chat\Miracl_AES_chat\cryptionC\AES\AES\source.c(51,21): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\admin\Desktop\AES_chat\Miracl_AES_chat\cryptionC\AES\AES\source.c(57,19): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  AES.vcxproj -> C:\Users\admin\Desktop\AES_chat\Miracl_AES_chat\cryptionC\AES\x64\Debug\AES.exe

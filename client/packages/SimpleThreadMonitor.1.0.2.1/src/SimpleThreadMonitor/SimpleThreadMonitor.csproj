@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFrameworks Condition="'$(LibraryFrameworks)'==''">net45;net40;netstandard2.0;netcoreapp2.0;netcoreapp3.0</TargetFrameworks>
+    <TargetFrameworks Condition="'$(LibraryFrameworks)'!=''">$(LibraryFrameworks)</TargetFrameworks>
+    <RootNamespace>SimpleThreadMonitor</RootNamespace>
+    <AssemblyName>SimpleThreadMonitor</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <Authors>uhm0311</Authors>
+    <Company>uhm0311</Company>
+    <Title>SimpleThreadMonitor</Title>
+    <Copyright>Copyright (c) 2020 uhm0311</Copyright>
+    <Description>Simple C# Mutex.</Description>
+    <PackageId>SimpleThreadMonitor</PackageId>
+    <PackageTags>Mutex</PackageTags>
+    <PackageProjectUrl>https://github.com/uhm0311/SimpleThreadMonitor</PackageProjectUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/uhm0311/SimpleThreadMonitor.git</RepositoryUrl>
+    <MinClientVersion>2.12</MinClientVersion>
+    <PackageVersion>1.0.2.1</PackageVersion>
+    <PackageReleaseNotes>Add .Net core 2.0, 3.0 support.</PackageReleaseNotes>
+    <PackageOutputPath>../nuget</PackageOutputPath>
+    <IncludeSymbols>true</IncludeSymbols>
+    <IncludeSource>true</IncludeSource>
+  </PropertyGroup>
+</Project>
